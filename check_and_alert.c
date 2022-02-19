@@ -3,8 +3,8 @@
 char* EmailRecepient;
 
 const char* temperatureMessage[] = {"Temperature is normal",
-									   "Error: Temperature is too low",
-									   "Error: Temperature is too high"};
+					"Error: Temperature is too low",
+					"Error: Temperature is too high"};
 
 bool (*const ReceiverTarget[]) (BreachType breachType) =
 {
